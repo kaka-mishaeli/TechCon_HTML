@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechCon 2024 - Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #ffffff;
+      color: #333;
+    }
+
+    header {
+      background-color: #003366;
+      color: #ffffff;
+      padding: 1rem 2rem;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      color: #ffffff;
+      margin-right: 1rem;
+      text-decoration: none;
+    }
+
+    nav a:hover,
+    nav a:focus {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    video {
+      width: 100%;
+      max-width: 720px;
+      height: auto;
+      display: block;
+      margin-top: 1rem;
+    }
+
+    footer {
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>TechCon 2024</h1>
+    <nav aria-label="Primary navigation">
+      <a href="about.html">About</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="register.html">Register</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    <section aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Welcome to TechCon 2024</h2>
+      <p>
+        TechCon 2024 is the premier global technology conference bringing together innovators, developers, thought leaders, and entrepreneurs for a multi-day experience packed with keynotes, sessions, and networking opportunities. Discover the latest trends in artificial intelligence, cloud computing, cybersecurity, and emerging tech.
+      </p>
+
+      <!-- Embedded Video -->
+      <video controls aria-label="Promotional video for TechCon 2024">
+        <source src="media/techcon2024-promo.mp4" type="video/mp4" />
+        <track src="media/techcon2024-subtitles.vtt" kind="subtitles" srclang="en" label="English subtitles" default>
+        Your browser does not support the video tag. You can <a href="media/techcon2024-promo.mp4">download the video here</a>.
+      </video>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 TechCon. <strong>Copyright</strong> All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
